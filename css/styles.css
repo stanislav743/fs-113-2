@@ -35,7 +35,8 @@ a {
 
 
  
-.header-menu-list{
+.header-menu-list:hover{
+    color: #404bbf
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
@@ -43,8 +44,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+.header-menu-list:focus {
+     color: #404bbf}
 
 .header-contacts-list{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -52,7 +56,8 @@ color: #2e2f42;
     color: #434455;
 
 }
-.title-sektion {
+.main-sektion {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
@@ -61,7 +66,16 @@ text-align: center;
 color: #fff;
 background: #2e2f42;
 }
-.order-service-button{
+.main-title{
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.action-button{
+    cursor: pointer;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -70,11 +84,37 @@ color: #fff;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 }
+.action-button:hover{
+    background-color: #404BBF 
+} 
+.action-button:focus
+{background-color: #404BBF;
+}
+
+
+.features{
+    background: #fff;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
 
 .features-subtitle{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;}
 
@@ -93,6 +133,7 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+background: #f4f4fd;
 }
 .fotografy-list-item{
     font-weight: 500;
@@ -121,7 +162,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-.fotografy-list-item-work-one{
+.fotografy-list-item-work-toto{
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
