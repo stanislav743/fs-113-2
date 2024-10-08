@@ -3,19 +3,7 @@ body
         color: #434455;
         background-color: #FFFFFF; 
     }
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-      }     
+    
          
          .header {
         }
@@ -102,20 +90,21 @@ background: #2e2f42;
 }
 .main-title{
     font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-size: 56px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
 .action-button{
+    font-family: inherit;
     cursor: pointer;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 background: #4d5ae5;
 }
 .action-button:hover{
@@ -157,7 +146,7 @@ color: #434455;
 
 .our-team {
     background: #f4f4fd;
-    background: #f4f4fd;
+   
 
 }
 
@@ -229,6 +218,8 @@ color: #434455;
 .selo-neon-lap {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #434455;
 font-size: 20px;
 line-height: 1.2;
 text-align:left
@@ -240,7 +231,8 @@ text-align:left
 font-size: 16px;
 line-height: 1.5;
 text-align:left
-
+letter-spacing: 0.02em;
+color: #434455;
 
 }
 
