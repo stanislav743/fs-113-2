@@ -219,7 +219,7 @@ color: #434455;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 font-size: 20px;
 line-height: 1.2;
 text-align:left
@@ -230,12 +230,10 @@ text-align:left
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-text-align:left
+text-align:left;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
-
 
 .footer{
     background: #2e2f42;
